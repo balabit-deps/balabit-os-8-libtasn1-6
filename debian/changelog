@@ -1,3 +1,13 @@
+libtasn1-6 (4.16.0-2ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service through inefficient algorithm.
+    - CVE-2024-12133-x.patch: Add caching and optimize algorithms in
+      lib/decoding.c, lib/element.c, lib/element.h, lib/int.h,
+      lib/parser_aux.c, and lib/structure.c.
+    - CVE-2024-12133
+
+ -- Hlib Korzhynskyy <hlib.korzhynskyy@canonical.com>  Wed, 12 Feb 2025 09:20:57 -0330
+
 libtasn1-6 (4.16.0-2) unstable; urgency=low
 
   * Upload to unstable.
